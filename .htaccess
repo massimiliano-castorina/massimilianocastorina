@@ -1,0 +1,4 @@
+#Redirect 301 http to https
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://www.massimilianocastorina.it/$1 [L,R=301]

@@ -1,0 +1,366 @@
+<html>
+<head>
+<title>Massimiliano Castorina</title>
+<link rel="stylesheet" href="css/custom.css">
+<link rel="stylesheet" href="css/contactform.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+<!--
+<script src="js/Chart.js"></script>
+<script src="js/Chart.bundle.js"></script>-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="Developer ed esperto informatico, 
+realizzazione ed ottimizzazione di applicativi web e riparazione/ripristino personal computer">
+</head>
+<body>
+<div id="header">
+   <section class="rfi ">
+        <div class="rfi-inner header-text">
+            <h1>Benvenuto nel mio sito! </h1>
+            <p> Scopriai informazioni utili e conoscerai un po' meglio le mie capacita'</p>
+        </div>
+    </section>
+    <div class="button transform" id="button" onclick="scroll_to('content')">    
+        <a></a>
+        </a>
+    </div>
+</div>
+
+<div id="content">
+    <div id="content-top">
+        <div id="myCarousel" class="carousel slide" data-interval="5000" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="item active ">
+                    <div class="col-md-3 col-xs-3 carousel-image">
+                        <img src="image/javascript.jpg"/>
+                    </div>
+                    <div class="col-md-3 col-xs-3 carousel-image">
+                        <img src="image/css3.jpg"/>
+                    </div>
+                    <div class="col-md-3 col-xs-3 carousel-image">
+                        <img src="image/html5.jpg"/>
+                    </div>
+                    <div class="col-md-3 col-xs-3 carousel-image">
+                        <img src="image/bootstrap.jpg"/>
+                    </div>
+                </div>
+
+                
+                <div class="item ">
+                    <div class="col-md-3 col-xs-3 carousel-image">
+                        <img src="image/java.jpg"/>
+                    </div>
+                    <div class="col-md-3 col-xs-3 carousel-image">
+                        <img src="image/digital-ocean.jpg"/>
+                    </div>
+                    <div class="col-md-3 col-xs-3 carousel-image">
+                        <img src="image/spring-framework.jpg "/>
+                    </div>
+                    <div class="col-md-3 col-xs-3 carousel-image">
+                        <img src="image/ubuntu.jpg"/>
+                    </div>
+                </div>
+                <div class="item ">
+                    <div class="col-md-4 col-xs-4 carousel-image">
+                        <img src="image/wordpress.jpg"/>
+                    </div>
+                    <div class="col-md-4 col-xs-4 carousel-image">
+                        <img src="image/prestashop.jpg"/>
+                    </div>
+                    <div class="col-md-4 col-xs-4 carousel-image">
+                        <img src="image/joomla.jpg"/>
+                    </div>
+                </div>
+            </div>
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" ></span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" ></span>
+            </a>
+
+            
+        </div>
+    </div>
+
+
+    <div id="content-middle">
+        <div class="row">
+            <div class="col-xs-10 col-xs-offset-1">
+                <div class="col-md-10 col-lg-3 col-lg-offset-1 content-box">
+                    <h2>CONOSCENZA</h2>
+                    <p> 
+                    Sono un esperto nel campo informatico, le mie conoscenze spaziano dalla realizzazione di siti web, piccoli lavori in java, 
+                    all’assemblaggio e riparazione di personal computer, cerco di semplificare nel miglior modo possibile il vostro lavoro.
+                    </p>
+                </div>
+                <div class="col-md-10 col-lg-3 content-box">
+                    <h2>REALIZZAZIONE</h2>
+                    <p>Creo e ottimizzo siti web tramite i più comuni CMS, fra cui: Wordpress, Joomla e Prestashop, abbassando di netto i costi
+                        per la loro realizzazione.
+                    </p>
+                </div>
+                <div class="col-md-10 col-lg-3 content-box">
+                    <h2>OTTIMIZZAZIONE</h2>
+                    <p> Volete un sito veloce? ottimizzo le risorse all'interno del server in modo da garantire al sito la velocità massima 
+                        al minor costo possibile!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="content-middle-skill">
+        <div class="col-md-12" style="text-align: center">
+            <h2 class="title"> LE MIE SKILL </h2>
+        </div>
+    <!-- JAVA -->
+        <div class="col-md-12">
+            <div class="col-lg-1">  </div>
+            <div class="col-md-4 col-lg-3 col-xs-12 img-skill">
+                    <img class="img-skill-responsive" src="image/java.jpg"/>
+            </div>
+            <div class="col-md-4 col-lg-3 col-lg-offset-1 col-xs-12">
+                    <h3 class="title-skill"> DESCRIZIONE: </h3>
+                    <p class="description-skill">
+                    Sviluppo di applicazioni multipiattaforma principalmente lato back-end, il metodo più comune di sviluppo è tramite pattern MVC (Model View Controller) 
+                    e protocolli Rest/Soap
+                </p>
+            </div>
+            <div class="col-md-4 col-lg-3 col-lg-offset-1col-xs-12">
+                    <h3 class="title-skill"> CONOSCENZA: </h3>
+                <canvas class="javaChart responsive"></canvas>  
+            </div>
+        </div>
+    <!-- SPRING FRAMEWORK -->
+        <div class="col-md-12">
+            <div class="col-lg-1">  </div>
+            <div class="col-md-4 col-lg-3 col-xs-12 img-skill">
+                    <img class="img-skill-responsive" src="image/spring-framework.jpg"/>
+            </div>
+            <div class="col-md-4 col-lg-3 col-lg-offset-1 col-xs-12">
+                    <h3 class="title-skill"> DESCRIZIONE: </h3>
+                <p class="description-skill">
+                        Framework di sviluppo Java progettato per rendere il tutto piu' veloce con la minima configurazione possibile,
+                        Spring Boot fra questi e' la soluzione piu' semplice per testare le applicazioni in questa piattaforma.
+                </p>
+            </div>
+            <div class="col-md-4 col-lg-3 col-lg-offset-1col-xs-12">
+                    <h3 class="title-skill"> CONOSCENZA: </h3>
+                <canvas class="springChart responsive"></canvas>  
+            </div>
+        </div>
+
+    <!-- javascript  -->
+        <div class="col-md-12">
+            <div class="col-lg-1">  </div>
+            <div class="col-md-4 col-lg-3 col-xs-12 img-skill">
+                    <img class="img-skill-responsive" src="image/javascript-context2.jpg"/>
+            </div>
+            <div class="col-md-4 col-lg-3 col-lg-offset-1 col-xs-12">
+                    <h3 class="title-skill"> DESCRIZIONE: </h3>
+                <p class="description-skill">
+                    Linguaggio di scripting comunemente usato nella programmazione lato client per siti e applicazioni web. Da qualche anno si e' evoluto tramite
+                    vari framework, i piu' usati sono: JQuery, Angular e React
+                </p>
+            </div>
+            <div class="col-md-4 col-lg-3 col-lg-offset-1col-xs-12">
+                    <h3 class="title-skill"> CONOSCENZA: </h3>
+                <canvas class="javascriptChart responsive"></canvas>  
+            </div>
+        </div>
+
+    <!-- HTML -->
+
+        <div class="col-md-12">
+            <div class="col-lg-1">  </div>
+            <div class="col-md-4 col-lg-3 col-xs-12 img-skill">
+                    <img class="img-skill-responsive" src="image/html5.jpg"/>
+            </div>
+            <div class="col-md-4 col-lg-3 col-lg-offset-1 col-xs-12">
+                    <h3 class="title-skill"> DESCRIZIONE: </h3>
+                <p class="description-skill">
+                    Linguaggio nato per la formazione e l'impaginazione di documenti ipertestuali. Non avendo strutture di controllo non puo' essere definito 
+                    linguaggio di programmazione, spesso per questo motivo viene usato insieme a javascript proprio per ovviare a questa problematica.
+                </p>
+            </div>
+            <div class="col-md-4 col-lg-3 col-lg-offset-1col-xs-12">
+                    <h3 class="title-skill"> CONOSCENZA: </h3>
+                <canvas class="htmlChart responsive"></canvas>  
+            </div>
+        </div>
+
+        <!-- CSS -->
+
+        <div class="col-md-12">
+            <div class="col-lg-1">  </div>
+            <div class="col-md-4 col-lg-3 col-xs-12 img-skill">
+                    <img class="img-skill-responsive" src="image/css3.jpg"/>
+            </div>
+            <div class="col-md-4 col-lg-3 col-lg-offset-1 col-xs-12">
+                    <h3 class="title-skill"> DESCRIZIONE: </h3>
+                <p class="description-skill">
+                    Il CSS come l'HTML non e' un linguaggio di programmazione, serve per separare la formattazione del documento dall'html, 
+                    rendendo il codice piu' pulito e facilmente riutilizzabile.                                          
+                </p>
+            </div>
+            <div class="col-md-4 col-lg-3 col-lg-offset-1col-xs-12">
+                    <h3 class="title-skill"> CONOSCENZA: </h3>
+                <canvas class="cssChart responsive"></canvas>  
+            </div>
+        </div>
+
+        <!-- UBUNTU -->
+
+        <div class="col-md-12">
+            <div class="col-lg-1">  </div>
+            <div class="col-md-4 col-lg-3 col-xs-12 img-skill">
+                    <img class="img-skill-responsive" src="image/ubuntu.jpg"/>
+            </div>
+            <div class="col-md-4 col-lg-3 col-lg-offset-1 col-xs-12">
+                    <h3 class="title-skill"> DESCRIZIONE: </h3>
+                <p class="description-skill">
+                    Uno dei sistemi operativi piu' diffusi e sicuri lato server per poter sviluppare applicativi, sia che siano app native che web app.                                    
+                </p>
+            </div>
+            <div class="col-md-4 col-lg-3 col-lg-offset-1col-xs-12">
+                    <h3 class="title-skill"> CONOSCENZA: </h3>
+                <canvas class="ubuntuChart responsive"></canvas>  
+            </div>
+        
+        </div>
+    </div>
+</div>
+<!-- contatti -->
+<div id="contact">
+    <div class="container">
+        <div class="contact-title col-lg-12 col-md-12 col-xs-12">
+           <h1> CONTATTI </h1>
+           <div class="contact-separator col-md-offset-4 col-md-4">
+                <h1></h1>
+            </div>
+        </div>
+
+        <div class="contact-address col-lg-3 col-md-3 col-xs-12">
+            <i class='fas fa-map-marker-alt contact'></i>
+                <h3> Via Borgaro, 128 </h3>
+        </div>  
+        <div class="contact-locality col-lg-3 col-md-3 col-xs-12">
+            <i class='fas fa-street-view contact'></i>
+                <h3> Torino (TO) </h3>
+        </div>
+        <div class="contact-tel col-lg-3 col-md-3 col-xs-12">
+            <i class='fas fa-phone contact'></i>
+                <h3> +393495204205 </h3>
+        </div>
+        <div class="contact-email col-lg-3 col-md-3 col-xs-12">
+            <i class='far fa-envelope contact'></i>
+                <h3> info@massimilianocastorina.it </h3>
+        </div>
+    </div>
+
+
+</div>
+
+
+<div class="row">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2816.0904585620997!2d7.661195815915095!3d45.10423427909831!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47886dccb16a949b%3A0x8e0f6e72bfbb68e6!2sVia%20Borgaro%2C%20128%2C%2010147%20Torino%20TO!5e0!3m2!1sit!2sit!4v1572033560765!5m2!1sit!2sit" class="maps" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+</div>
+
+<!-- form -->
+<script src="js/contactformvalidation.js"></script>
+<script>
+required.add('Full_Name','NOT_EMPTY','Full Name');
+required.add('Email_Address','EMAIL','Email Address');
+required.add('Your_Message','NOT_EMPTY','Your Message');
+required.add('AntiSpam','NOT_EMPTY','Anti-Spam Question');
+</script>
+<div class="row content-form col-lg-12 col-md-12 col-xs-12">
+    <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-xs-12">
+    <form name="contactform" method="post" action="controller/contactformprocess.php" onsubmit="return validate.check(this)">    
+            <table class="table">
+                    <tr>
+                    <td colspan="2">
+                    
+                    <div class="contactformheader">Contattami</div>
+                    
+                    <div class="contactformmessage"> I campi con <span class="required_star"> * </span> sono obbligatori.</div>
+                    
+                    </td>
+                    </tr>
+                    <tr>
+                <td valign="top">
+                <label for="Full_Name" class="required form-title">Nome e/o Cognome<span class="required_star"> * </span></label>
+                </td>
+                <td valign="top">
+                <input type="text" name="Full_Name" id="Full_Name" maxlength="80" style="width:230px">
+                </td>
+            </tr>
+            <tr>
+                <td valign="top">
+                <label for="Email_Address" class="required form-title">Email<span class="required_star"> * </span></label>
+                </td>
+                <td valign="top">
+                <input type="text" name="Email_Address" id="Email_Address" maxlength="100" style="width:230px">
+                </td>
+            </tr>
+            <tr>
+                <td valign="top">
+                <label for="Telephone_Number" class="not-required form-title">Telefono</label>
+                </td>
+                <td valign="top">
+                <input type="text" name="Telephone_Number" id="Telephone_Number" maxlength="100" style="width:230px">
+                </td>
+            </tr>
+            <tr>
+                <td valign="top">
+                <label for="Your_Message" class="required form-title">Messaggio<span class="required_star"> * </span></label>
+                </td>
+                <td valign="top">
+                <textarea style="width:230px;height:160px" name="Your_Message" id="Your_Message" maxlength="2000"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align:center" >
+                <div class="antispammessage">
+                Per evitare inutile spam, rispondi a questa domanda*:
+                <br /><br />
+                    <div class="antispamquestion">
+                    <span class="required_star"> * </span>
+                    qual'è la somma di 5 + 4? &nbsp; 
+                    <input type="text" name="AntiSpam" id="AntiSpam" maxlength="100" style="width:30px">
+                    </div>
+                </div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align:center" >
+                <br /><br />
+                <input type="submit" value=" Invia " style="width:200px;height:40px">
+                <br /><br />
+                </td>
+            </tr>
+            </table>
+            </form>
+    </div>
+</div>
+
+<div id="footer">
+    <div class="row">
+        <div class="site-info col-lg-12 col-md-12 col-xs-12">
+            <div class="container">
+                <h3> Copyright © 2019 - Massimiliano Castorina </h3>
+            </div>
+        </div>
+    </div>
+</div>
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+<script src="js/custom.js"></script>
+
+<!--
+<script src="js/visible.js"></script>-->
+</body>
+</html> 

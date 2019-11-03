@@ -1,0 +1,55 @@
+.contactform {
+font-family: arial;
+border: 1px solid #AAA;
+padding:10px;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px;
+
+}
+
+form[name="contactform"] {
+    width: 100%;
+  }
+
+.contactformheader {
+font-size:18px;
+font-weight:bold;
+padding-top:10px;
+padding-bottom:10px;
+text-align:center;
+}
+.contactformmessage {
+text-align:center;
+padding-bottom:10px;
+}
+.contactform td {
+padding:4px;
+font-size:12px;
+}
+.contactform p {
+padding:4px;
+}
+.contactform label {
+padding:4px;
+}
+.contactform label {
+padding-right:10px
+}
+.required {
+font-weight:bold;
+}
+.required_star {
+font-weight:bold;
+color:#F00;
+}
+.not-required {
+font-weight:normal
+}
+.antispammessage {
+padding:10px;
+font-weight:bold 
+}
+.antispamquestion {
+font-weight:normal;
+}
